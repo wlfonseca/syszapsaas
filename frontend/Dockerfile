@@ -1,4 +1,4 @@
-FROM node:16.14.2 as build-deps
+FROM node:16.20 as build-deps
 WORKDIR /usr/src/app
 COPY ./ /usr/src/app/
 RUN cp -i .env-exemple .env
